@@ -33,3 +33,12 @@ AGROUPS_NO_GROUP = \dn/a
 AGROUPS_DISPLAY_ONLINE = %s \r[\y%i onlajn\r]
 AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i onlajn\r]
 AGROUPS_NO_USERS = \dNema igrachi onlajn
+
+[bp]
+AGROUPS_NO_ACCESS = Voce nao tem permissao pra ver os grupos.
+AGROUPS_MENU_TITLE = \d-= \rAdmin Groups \d=-\n\n\d> \wNome: \y%s\n\d> \wGrupo: \y%s\n\d- - - - - - - - - - \r 
+AGROUPS_MENU2_TITLE = \d-= \rAdmin Groups \d=-\n\n\d> \wGrupo: \y%s\n\d> \wMembros: \y%i online\n\d- - - - - - - - - - \r 
+AGROUPS_NO_GROUP = \dn/a 
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i online\r] 
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i online\r] 
+AGROUPS_NO_USERS = \dSem membros online
