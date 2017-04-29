@@ -1,0 +1,35 @@
+[en]
+AGROUPS_NO_ACCESS = You are not allowed to view the groups.
+AGROUPS_MENU_TITLE = \d-= \rAdmin Groups \d=-\n\n\d> \wName: \y%s\n\d> \wGroup: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rAdmin Groups \d=-\n\n\d> \wGroup: \y%s\n\d> \wUsers: \y%i online\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i online\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i online\r]
+AGROUPS_NO_USERS = \dNo users online
+
+[mk]
+AGROUPS_NO_ACCESS = Nemash pravo da gi gledash grupite.
+AGROUPS_MENU_TITLE = \d-= \rAdmin Grupi \d=-\n\n\d> \wIme: \y%s\n\d> \wGrupa: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rAdmin Grupi \d=-\n\n\d> \wGrupa: \y%s\n\d> \wIgrachi: \y%i na linija\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i na linija\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i na linija\r]
+AGROUPS_NO_USERS = \dNema igrachi na linija
+
+[bg]
+AGROUPS_NO_ACCESS = Nqmash pravo da preglejdash grupite.
+AGROUPS_MENU_TITLE = \d-= \rAdmin Grupi \d=-\n\n\d> \wIme: \y%s\n\d> \wGrupa: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rAdmin Grupi \d=-\n\n\d> \wGrupa: \y%s\n\d> \wIgrachi: \y%i na liniq\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i na liniq\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i na liniq\r]
+AGROUPS_NO_USERS = \dNqma igrachi na liniq
+
+[sr]
+AGROUPS_NO_ACCESS = Nije vam dozvoljeno da vidite grupe.
+AGROUPS_MENU_TITLE = \d-= \rAdmin Grupe \d=-\n\n\d> \wIme: \y%s\n\d> \wGrupa: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rAdmin Grupe \d=-\n\n\d> \wGrupa: \y%s\n\d> \wIgrachi: \y%i onlajn\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i onlajn\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i onlajn\r]
+AGROUPS_NO_USERS = \dNema igrachi onlajn
