@@ -42,3 +42,21 @@ AGROUPS_NO_GROUP = \dn/a
 AGROUPS_DISPLAY_ONLINE = %s \r[\y%i online\r] 
 AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i online\r] 
 AGROUPS_NO_USERS = \dSem membros online
+
+[es]
+AGROUPS_NO_ACCESS = No tienes permiso para ver los grupos.
+AGROUPS_MENU_TITLE = \d-= \rGrupo de admins \d=-\n\n\d> \wNombre: \y%s\n\d> \wGrupo: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rGrupo de admins \d=-\n\n\d> \wGrupo: \y%s\n\d> \wUsuarios: \y%i online\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i online\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i online\r]
+AGROUPS_NO_USERS = \dNo hay usuarios online 
+
+[lt]
+AGROUPS_NO_ACCESS = Jūs neturite teisių peržiūrėti grupes.
+AGROUPS_MENU_TITLE = \d-= \rAdministratorių grupės \d=-\n\n\d> \wVardas: \y%s\n\d> \wGrupė: \y%s\n\d- - - - - - - - - - \r 
+AGROUPS_MENU2_TITLE = \d-= \rAdministratorių grupės \d=-\n\n\d> \wGrupė: \y%s\n\d> \wVartotojai: \y%i prisijungęs(-ę)\n\d- - - - - - - - - - \r 
+AGROUPS_NO_GROUP = \dn/a 
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i prisijungęs(-ę)\r] 
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i prisijungęs(-ę)\r] 
+AGROUPS_NO_USERS = \dNėra prisijungusių
