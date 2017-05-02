@@ -60,3 +60,12 @@ AGROUPS_NO_GROUP = \dn/a
 AGROUPS_DISPLAY_ONLINE = %s \r[\y%i prisijungęs(-ę)\r] 
 AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i prisijungęs(-ę)\r] 
 AGROUPS_NO_USERS = \dNėra prisijungusių
+
+[hu]
+AGROUPS_NO_ACCESS = Nincs engedelyed a csoportok megtekintesehez.
+AGROUPS_MENU_TITLE = \d-= \rAdmin Csoportok \d=-\n\n\d> \wNev: \y%s\n\d> \wCsoport: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rAdmin Csoportok \d=-\n\n\d> \wCsoport: \y%s\n\d> \wJatekosok: \y%i elerheto\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i elerheto\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i elerheto\r]
+AGROUPS_NO_USERS = \dNincsenek elerheto jatekosok
