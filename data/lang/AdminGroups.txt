@@ -69,3 +69,21 @@ AGROUPS_NO_GROUP = \dn/a
 AGROUPS_DISPLAY_ONLINE = %s \r[\y%i elerheto\r]
 AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i elerheto\r]
 AGROUPS_NO_USERS = \dNincsenek elerheto jatekosok
+
+[de]
+AGROUPS_NO_ACCESS = Du hast keine Berechtigung die Gruppe aufzurufen.
+AGROUPS_MENU_TITLE = \d-= \rAdmin Gruppe \d=-\n\n\d> \wName: \y%s\n\d> \wGruppe: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rAdmin Gruppe \d=-\n\n\d> \wGruppe: \y%s\n\d> \wBenutzer: \y%i online\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i online\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i online\r]
+AGROUPS_NO_USERS = \dKein Benutzer online 
+
+[fr]
+AGROUPS_NO_ACCESS = Vous n'êtes pas autorisé à afficher les groupes.
+AGROUPS_MENU_TITLE = \d-= \rGroupes d'administrateurs \d=-\n\n\d> \wNom: \y%s\n\d> \wGroupe: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rGroupes d'administrateurs \d=-\n\n\d> \wGroupe: \y%s\n\d> \wUtilisateurs: \y%i En ligne\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i En ligne\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i hors ligne\r]
+AGROUPS_NO_USERS = \dAucun utilisateur en ligne
