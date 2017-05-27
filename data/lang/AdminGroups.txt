@@ -87,3 +87,12 @@ AGROUPS_NO_GROUP = \dn/a
 AGROUPS_DISPLAY_ONLINE = %s \r[\y%i En ligne\r]
 AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i hors ligne\r]
 AGROUPS_NO_USERS = \dAucun utilisateur en ligne
+
+[sk]
+AGROUPS_NO_ACCESS = Nemas dostatocne opravnenia zobrazit skupiny!
+AGROUPS_MENU_TITLE = \d-= \rAdmin skupiny \d=-\n\n\d> \wMeno: \y%s\n\d> \wSkupina: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rAdmin skupiny \d=-\n\n\d> \wSkupina: \y%s\n\d> \wClenovia: \y%i online\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i online\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i online\r]
+AGROUPS_NO_USERS = \dNikto z clenov nie je online
