@@ -105,3 +105,12 @@ AGROUPS_NO_GROUP = \dn/a
 AGROUPS_DISPLAY_ONLINE = %s \r[\y%i &#32447;上\r]
 AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i &#32447;上\r]
 AGROUPS_NO_USERS = \d&#27809;有用户在线
+
+[ro]
+AGROUPS_NO_ACCESS = Nu esti autorizat sa vezi acest grup.
+AGROUPS_MENU_TITLE = \d-= \rGrad admin \d=-\n\n\d> \wNume: \y%s\n\d> \wGrad: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rGrad admin \d=-\n\n\d> \wGrad: \y%s\n\d> \wAdmini: \y%i activi\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%i activi\r]
+AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i activi\r]
+AGROUPS_NO_USERS = \dNu sunt admini activi.
