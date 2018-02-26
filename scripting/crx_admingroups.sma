@@ -3,7 +3,7 @@
 #include <cromchat>
 #include <formatin>
 
-#define PLUGIN_VERSION "1.0"
+#define PLUGIN_VERSION "1.1"
 #define NO_GROUP -1
 #define NOT_CONNECTED -2
 
@@ -18,7 +18,8 @@ enum _:Settings
 {
 	MENU_ACCESS,
 	MENU_PERPAGE,
-	MENU_SOUND[64]
+	MENU_SOUND[64],
+	FLAGS_METHOD
 }
 
 enum _:Groups
@@ -71,7 +72,7 @@ ReadFile()
 			
 			switch(szData[0])
 			{
-				case EOS, ';': continue
+				case EOS, ';', '#': continue
 				case '[':
 				{
 					iSize = strlen(szData)
@@ -133,6 +134,8 @@ ReadFile()
 								if(!equal(szValue, "!"))
 									precache_sound(szValue)
 							}
+							else if(equal(szKey, "FLAGS_METHOD"))
+								g_eSettings[FLAGS_METHOD] = str_to_num(szValue)
 						}
 						case SECTION_GROUPS:
 						{
@@ -203,7 +206,7 @@ public Menu_CheckViewFlag(id, iMenu, iItem)
 {
 	static eGroup[Groups]
 	ArrayGetArray(g_aGroups, iItem, eGroup)
-	return (!eGroup[ViewFlags][0] || has_all_flags(id, eGroup[ViewFlags])) ? ITEM_ENABLED : ITEM_DISABLED
+	return (!eGroup[ViewFlags][0] || has_required_flags(id, eGroup[ViewFlags])) ? ITEM_ENABLED : ITEM_DISABLED
 }
 
 public Groups_Handler(id, iMenu, iItem)
@@ -265,7 +268,7 @@ public update_user_group(id)
 	{
 		ArrayGetArray(g_aGroups, i, eGroup)
 		
-		if(has_all_flags(id, eGroup[Flags]))
+		if(has_required_flags(id, eGroup[Flags]))
 		{
 			g_iUserGroup[id] = i
 			break
@@ -274,6 +277,9 @@ public update_user_group(id)
 	
 	return g_iUserGroup[id]
 }
+
+has_required_flags(const id, const szFlags[])
+	return (g_eSettings[FLAGS_METHOD] == 1) ? has_all_flags(id, szFlags) : has_flag(id, szFlags)
 
 get_user_group(const id, szGroup[], const iLen)
 {
