@@ -9,7 +9,7 @@
  *
  * @return				Number of groups.
  */
-native _agroups_get_groups_num()
+native agroups_get_groups_num()
 
 /** 
  * Gets the number of online players in a specified group.
