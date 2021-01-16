@@ -114,3 +114,12 @@ AGROUPS_NO_GROUP = \dn/a
 AGROUPS_DISPLAY_ONLINE = %s \r[\y%i activi\r]
 AGROUPS_DISPLAY_OFFLINE = \d%s \r[\d%i activi\r]
 AGROUPS_NO_USERS = \dNu sunt admini activi.
+
+[ru] -- Kin[g]
+AGROUPS_NO_ACCESS = Вам не разрешено просматривать группы.
+AGROUPS_MENU_TITLE = \d-= \rГруппы администраторов \d=-\n\n\d> \wName: \y%s\n\d> \wGroup: \y%s\n\d- - - - - - - - - - \r
+AGROUPS_MENU2_TITLE = \d-= \rГруппы администраторов \d-= \rAdmin Groups \d=-\n\n\d> \wGroup: \y%s\n\d> \wUsers: \y%i online\n\d- - - - - - - - - - \r
+AGROUPS_NO_GROUP = \dn/a
+AGROUPS_DISPLAY_ONLINE = %s \r[\y%В Сети\r]
+AGROUPS_DISPLAY_OFFLINE = %s \r[\y%Не в Сети\r]
+AGROUPS_NO_USERS = \ dНет пользователей в сети
